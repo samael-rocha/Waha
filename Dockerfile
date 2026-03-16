@@ -1,0 +1,6 @@
+FROM devlikeapro/waha:latest
+
+ENV WAHA_PORT=3000
+ENV WAHA_SESSION_STORE=FILE
+
+EXPOSE 3000
